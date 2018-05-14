@@ -1,0 +1,126 @@
+/* Général */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.clear
+{
+  clear: both;  
+}
+
+ul
+{
+    list-style: none;
+}
+
+header{
+    display: block;
+    width: 100%;
+    height: 55px;
+}
+/* Header */
+
+.Titre
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    background: rgb(30,45,76);
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}  
+
+.titre1
+{
+    margin-right: 330px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    
+    
+}
+
+.deco{
+    text-decoration: none;
+}
+
+.Choix
+{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button1
+{
+    display:inline-block;
+    width: 180px;
+    height: 50px;
+    background: rgb(30,45,76);
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 400px;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    
+}
+
+.button1:hover{
+    background: #444;
+}
+
+.button2{
+    display:inline-block;
+    width: 180px;
+    height: 50px;
+    background: rgb(30,45,76);
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    
+}
+
+.button2:hover
+{
+    background: #444;
+}
+
+.button3
+{
+    display:inline-block;
+    width: 180px;
+    height: 50px;
+    background: rgb(30,45,76);
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    
+}
+
+.button3:hover
+{
+    background: #444;
+}
